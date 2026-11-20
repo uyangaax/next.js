@@ -1,7 +1,4 @@
-import { Counter } from "./Counter";
-import { LightSwitch } from "./LightSwitch";
-import { SecretMessage } from "./SecretMessage";
-import "./Counter.css";
+import { PizzaBuilder } from "./PizzaBuilder";
 
 export default function Home() {
   return (
@@ -9,14 +6,7 @@ export default function Home() {
       <h1> useState</h1>
 
       <section>
-        <Counter />
-      </section>
-
-      <section>
-        <LightSwitch />
-      </section>
-      <section>
-        <SecretMessage />
+        <PizzaBuilder />
       </section>
     </main>
   );
